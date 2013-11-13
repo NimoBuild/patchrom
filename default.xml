@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="github"
+           fetch="git://github.com" />
+
+  <default revision="refs/heads/jellybean"
+           remote="github"
+           sync-j="4" />
+
+  <project path="build" name="NimoBuild/patchrom_build">
+    <copyfile src="makefile" dest="Makefile" />
+  </project>
+  <project path="manifest" name="NimoBuild/patchrom" />
+  <project path="android" name="NimoBuild/patchrom_android" />
+  <project path="lewa" name="NimoBuild/patchrom_nimo" />
+  <project path="tools" name="NimoBuild/patchrom_tools" />
+  <project path="m1s" name="NimoBuild/patchrom_vivo" />
+</manifest>
