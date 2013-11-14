@@ -8,6 +8,9 @@
            remote="github"
            sync-j="4" />
 
+  <project path="tools/bin" name="MiCode/patchrom_build">
+    <copyfile src="makefile" dest="Makefile" />
+  </project>
   <project path="manifest" name="NimoBuild/patchrom" />
   <project path="tools" name="NimoBuild/patchrom_tools" />
   <project path="build" name="NimoBuild/nimosdk_build" />
