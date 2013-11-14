@@ -8,8 +8,8 @@
            remote="github"
            sync-j="4" />
 
-  <project path="tools/bin" name="NimoBuild/patchrom_build">
-    <copyfile src="makefile" dest="Makefile" />
+  <project path="tools/bin" name="NimoBuild/nimosdk_tools">
+    <copyfile src="up.sh" dest="up.sh" />
   </project>
   <project path="manifest" name="NimoBuild/patchrom" />
   <project path="tools" name="NimoBuild/patchrom_tools" />
