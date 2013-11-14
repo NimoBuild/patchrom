@@ -9,5 +9,7 @@
            sync-j="4" />
 
   <project path="manifest" name="NimoBuild/patchrom" />
+  <project path="tools" name="NimoBuild/patchrom_tools" />
+  <project path="build" name="NimoBuild/nimosdk_build" />
 </manifest>
 
