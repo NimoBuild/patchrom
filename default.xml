@@ -9,7 +9,7 @@
            sync-j="4" />
 
   <project path="tools" name="NimoBuild/patchrom_tools">
-    <copyfile src="tools/up.sh" dest="up.sh" />
+    <copyfile src="bin/up.sh" dest="up.sh" />
   </project>
   <project path="manifest" name="NimoBuild/patchrom" />
   <project path="build" name="NimoBuild/nimosdk_build" />
