@@ -11,7 +11,8 @@
   <project path="tools" name="NimoBuild/patchrom_tools"/>
   <project path="manifest" name="NimoBuild/patchrom" />
   <project path="build" name="NimoBuild/nimosdk_build" />
-  <project path="platform" name="NimoBuild/nimosdk_platform" />
-  <project path="vendor" name="NimoBuild/nimosdk_vendor" />
+  <project path="platform" name="NimoBuild/nimosdk_platform"/>
+  <project path="vendor" name="NimoBuild/nimosdk_vendor"/>
+  <project path="test" name="NimoBuild/test"/>
 </manifest>
 
