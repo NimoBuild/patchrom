@@ -13,6 +13,6 @@
   <project path="build" name="NimoBuild/nimosdk_build" />
   <project path="platform" name="NimoBuild/nimosdk_platform"/>
   <project path="vendor" name="NimoBuild/nimosdk_vendor"/>
-  <project path="test" name="NimoBuild/patchrom_test"/>
+  <project path="test" name="NimoBuild/test"/>
 </manifest>
 
